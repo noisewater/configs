@@ -4,7 +4,9 @@ return require("packer").startup(
 	function()
 		use {"wbthomason/packer.nvim", opt = true}
 	        use {"nvim-lua/plenary.nvim"}
-	        use {"nvim-treesitter/nvim-treesitter"}
+		use {"nvim-lua/completion-nvim"}
+       		--use {"hrsh7th/nvim-compe"}
+        	use {"nvim-treesitter/nvim-treesitter"}
 		use {"neovim/nvim-lspconfig"}
 		use {"nvim-telescope/telescope.nvim"}
 		use {"nvim-telescope/telescope-media-files.nvim"}
