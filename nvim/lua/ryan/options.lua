@@ -13,6 +13,11 @@ o.undodir = '~/.vim/undodir'
 o.incsearch = true
 o.termguicolors = true
 o.scrolloff = 8
+o.tabstop = 4
+o.softtabstop = 4
+o.shiftwidth = 4
+o.expandtab = true
+o.smartindent = true
 
 -- Window Options 
 wo.wrap = false
