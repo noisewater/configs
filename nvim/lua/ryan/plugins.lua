@@ -13,6 +13,8 @@ return require("packer").startup(
 		use {"nvim-telescope/telescope-media-files.nvim"}
 		use {"gruvbox-community/gruvbox"}
 		use {"kyazdani42/nvim-web-devicons"}
+        use {"vim-airline/vim-airline"}
+        use {"vim-airline/vim-airline-themes"}
 	end
 
 )
